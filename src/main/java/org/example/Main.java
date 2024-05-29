@@ -8,7 +8,8 @@ public class Main {
 
        MDNSAdvertisement advert = new MDNSAdvertisement("InfDev");
        advert.start();
-       System.out.println("Bing!");
+       AdvertListner listner = new AdvertListner(12345);
+         listner.start();
 
     }
 }
